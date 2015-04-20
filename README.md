@@ -1,2 +1,4 @@
-# ginger-type
-Legacy Branch from ginger-type
+Component_GingerType
+====================
+
+Type component from GingerWF
