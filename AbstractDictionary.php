@@ -83,7 +83,6 @@ abstract class AbstractDictionary implements DictionaryType
     public static function fromNativeValue($value)
     {
         $propertyNames = array_keys(static::getPropertyPrototypes());
-error_log(print_r($propertyNames, true));
         try{
             \Assert\that($value)->isArray();
             \Assert\that(array_keys($value))->all()->inArray($propertyNames);
